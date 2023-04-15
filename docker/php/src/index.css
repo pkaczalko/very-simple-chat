@@ -1,0 +1,115 @@
+body{
+	background-color: lightyellow;
+
+}
+#czat{
+	background-color: lightgreen;
+	height:700px;
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	border:solid;
+	border-color: black;
+	position: relative;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+
+
+}
+#pole{
+	background-color: lightgrey;
+	height:150px;
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: none;
+	border:solid;
+	border-color: black;
+	position: relative;
+	border-radius: 25px;
+	border-color: lightgrey;
+}
+
+#dymek
+{
+	background-color: lightgrey;
+	border:solid;
+	border-color: grey;
+	border-radius: 25px;
+}
+
+#nazwa{
+	position: relative;
+width: 300px;
+border-radius: 25px;
+border-color: lightgrey;
+}
+
+#zdjecie{
+	width: 300px;
+	right: 190px;
+	top: 1px;
+	position: absolute;
+border-radius: 25px;
+border-color: lightgrey;
+}
+
+#wiadomosc{
+	width: 795px;
+	height: 50px;
+	position: relative;
+	top: 3%;
+	border-radius: 25px;
+	border-color: lightgrey;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+button{
+	right: 45%;
+	bottom:2px;
+	position: absolute;
+
+
+}
+#av{
+	height: 64px;
+	width: 64px;
+	border-radius: 60px;
+}
+#panel{
+	top: 450px;
+}
+
+.data{
+	position: relative;
+	left: 1px;
+	color: grey;
+}
+
+/* width */
+#czat::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+#czat::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+#czat::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+#czat::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+}
+#czat::-webkit-scrollbar-button{
+	background: white;
+}
